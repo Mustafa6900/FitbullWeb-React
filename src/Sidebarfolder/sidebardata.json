@@ -1,0 +1,30 @@
+
+[
+    {
+        "title": "Home",
+        
+        "link": "/home"
+    
+    },
+    {
+        "title": "FitnessCenter",
+        
+        "link": "/FitnessCenter"
+    
+    },
+    {
+        "title": "PersonalTrainer",
+        
+        "link": "/PersonalTrainer"
+    },
+    {
+         "title": "Supplements",
+       
+         "link": "/Supplements"
+    },
+    {
+         "title": "Profile",
+         
+         "link": "/Profile"
+    }
+]
