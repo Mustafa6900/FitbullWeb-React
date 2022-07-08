@@ -1,6 +1,6 @@
 import  SidebarData  from './sidebardata.json';
 import React from 'react';
-import "./Sidebar.css";
+import "../App.css"
 
 const Sidebar = () => {
     return (
@@ -18,8 +18,16 @@ const Sidebar = () => {
                    <div>{val.title}</div>
                   </li>
                 );
+                
               })}
-             </ul>
+             
+             <li className="logoutbutton"
+                  onClick={()=>{
+                   window.location.pathname="/dashboardexit";
+                  }}>
+                   <div>Logout</div>
+                  </li>
+                </ul>   
         </nav>
       );
 }

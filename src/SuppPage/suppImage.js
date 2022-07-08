@@ -5,7 +5,9 @@ import suppData from '../Sidebarfolder/suppdata.json';
 
 function suppimage(){
     return (
+     
         <nav className='suppimage'>
+          <h1>Supplement</h1>
              <ul className='suppimageList'>
               {suppData.map((val)=>{
                 return(

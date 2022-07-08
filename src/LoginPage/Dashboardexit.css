@@ -1,0 +1,36 @@
+.dashboardexit{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dashboardexit__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+    border-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  .dashboardexit__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  .dashboardexit div {
+    margin-top: 7px;
+  }
+  

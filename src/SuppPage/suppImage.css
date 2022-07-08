@@ -1,20 +1,23 @@
 
 .suppimage{
-    margin-top: -60px;
-    margin-left: 10px;
+
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
     font-weight: 400;
     text-align: center;
+    cursor: pointer;
+    
   }
   
   .suppimageList{
+    margin-left: 410px;
     margin-top: 152px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+    list-style:none;
   }
   
   .suppimageList .row{
@@ -36,4 +39,9 @@
   .image{
     display: block;
     width: 100%;
+  }
+
+  .suppimage h1{
+    font-size: 40px;
+    margin-left: 430px;
   }

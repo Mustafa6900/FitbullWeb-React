@@ -1,18 +1,27 @@
-import React from 'react';
 import Sidebar from '../Sidebarfolder/Sidebar';
-import {logout } from "../firebase";
+import "./Home.css";
+import React, { useEffect} from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { useNavigate } from "react-router-dom";
+import { auth } from "../firebase";
 
 function Home() {
+    const [user, loading] = useAuthState(auth);
+  
+    const navigate = useNavigate();
+  
+  
+    
+  
+    useEffect(() => {
+      if (loading) return;
+      if (!user) return navigate("/");
+  }, [user, loading]);
     
     return (
         
         <div className="home">
         <Sidebar/>
-
-        <button className="dashboard__btn" onClick={logout}>
-          Logout
-        </button>
-        
         <h1>Home Page</h1>
         </div>
     );

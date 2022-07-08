@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import "./Dashboard.css";
 import { auth, db, logout } from "../firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
-import Home from "../Sidebarfolder/Home";
 
 
 function Dashboard() {
@@ -28,8 +27,8 @@ function Dashboard() {
 
   useEffect(() => {
     if (loading) return;
-    if (user) return navigate("/home");
     if (!user) return navigate("/");
+    else if (user) return navigate("/home");
 
     fetchUserName();
   }, [user, loading]);

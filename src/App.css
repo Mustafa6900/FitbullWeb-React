@@ -49,46 +49,31 @@ body{
   }
   
   .sidebarList .row:hover{
-    border-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    background-color: rgb(139, 87, 87);
     width: max-content;
     height: max-content;
-  
+    color: white;
     
-    
   }
-  
-  .home{
-    width: 80%;
-    margin-left : 23%;
-    text-align: center;
-  
+
+  .logoutbutton{
+   
+    margin-top: 200px;
+    margin-inline: 40px;
+    font-size: 45px;
+    background-color: #323f4d;
+    width: max-content;
+    border-radius: 111px;
+    border-top-right-radius: 111px;
+    border-bottom-right-radius: 111px;
+    cursor: pointer;
   }
-  .fitnesscenter{
-    width: 80%;
-    margin-left : 23%;
-    text-align: center;
+
+  .logoutbutton :hover{
+    color: white;
   }
-  .personaltrainer{
-    width: 80%;
-    margin-left : 23%;
-    text-align: center;
-  
-  }
-  .supplements{
-    width: 80%;
-    margin-left : 23%;
-    text-align: center;
-  
-  }
-  
-  .profile{
-    width: 80%;
-    margin-left : 23%;
-    text-align: center;
-  
-  }
-  
+
+ 
+
+
+ 
   
